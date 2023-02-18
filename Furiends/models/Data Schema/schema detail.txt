@@ -1,0 +1,35 @@
+User: 
+user_id  unique id 
+first_name 名
+last_name 姓
+address 地址
+age 年龄
+gender 1 是 男 2 女
+rehabilitation 1是 2 不是
+
+log table 
+log user id foreign key -- user table user id
+logging in time 登陆时间 e.g. 2020/03/01/17:45:34
+log id primary key
+
+pets table 
+pet id primary key 
+pet_user_id foreign id 
+pet_name 名字
+pet_intimacy  1- 10 亲密度 10最高 1 最低
+pets category foreign key in pet category table
+
+pet category table
+一共6个 category 对应六个宠物
+
+activity
+vr loading time 游戏加载时间
+duration activtiy 游戏持续时间
+
+
+community table
+request time 最近一次登录 comunity 的时间
+sharing votes 一共分享了几次
+clicking votes 分享的链接被点击了几次
+new friends invite 一共有多少新用户加入
+activity_id 用户所加入社群的id
